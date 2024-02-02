@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 200px;
+  height: auto; 
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-size: larger;
+  text-align: center;
+  position: relative; 
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #0a0a0a; 
+  font-weight: bold;
+}
+
+.compare-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.discounted-price {
+  color: #e74c3c; 
+  font-weight: bold;
+}
+
+.vendor {
+  color: #333; 
+}
+
+.badge {
+  background-color: #fdfefe; 
+  color: #171515;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+button {
+  width: 30%;
+  color: #fff;
+  background-color: #0e0d0e;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline;
+  margin-top: auto; 
+   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a61c8f; 
+}
+
+button:active {
+  transform: scale(0.98);
+}
+#heading{
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
